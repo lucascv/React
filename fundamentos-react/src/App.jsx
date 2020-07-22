@@ -10,12 +10,17 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <Card titulo="#08 - Renderização condicional" color="#982395">
+        <ParOuImpar number={21} />
+      </Card>
+
       <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
         <TabelaProdutos />
       </Card>
