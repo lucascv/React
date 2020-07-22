@@ -12,6 +12,7 @@ export default (props) => {
       </tr>
     );
   })
+  
   return (
     <div>
       <table border="1">
